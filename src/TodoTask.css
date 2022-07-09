@@ -1,0 +1,69 @@
+.Task
+{
+    margin-top: 2px;
+    height: 70px;
+
+    background-color: rgba(255, 255, 255, 0.24);
+
+    display: flex;
+    justify-content: space-between;
+
+    transition: background-color 0.2s;
+}
+.Task:hover
+{
+    background-color: rgba(255, 255, 255, 0.301);
+}
+.Text
+{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Text:hover
+{
+    color: rgba(255, 255, 255, 0.493);
+    cursor: pointer;
+}
+
+.Btns
+{
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Icon
+{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 0;
+    width: 50%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    border: none;
+
+    transition: font-size 0.2s;
+}
+.Icon:hover
+{
+    font-size: 25px;
+}
+
+.EditTxt
+{
+    margin-left: -2px;
+    margin-top: -2px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
